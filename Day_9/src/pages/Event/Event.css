@@ -1,0 +1,160 @@
+/* src/App.css */
+
+/* src/App.css */
+
+
+
+/* Styling for the hackathon card */
+.hackathon-card01 {
+    position: relative; /* Set the container to relative positioning */
+
+    background-color: #fff;
+    border-radius:10px;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 0px 8px rgba(0, 0, 0, 0.1); /* Adjust values as needed */
+    transition: transform 0.2s;
+    width: calc(37% - 25px);
+    height: 290px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+    margin: 10px;
+    box-sizing: border-box;
+    border: 2px solid transparent; /* Transparent border by default */
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #ffffff; /* Set the background color */
+  border-radius: 10px; /* Add rounded corners */
+  padding: 20px; /* Add some padding */
+  margin: 10px; /* Add margin to create space between cards */
+  box-shadow: 0 0px 8px rgba(0, 0, 0, 0.1); /* Add a box shadow */
+  transition: transform 0.2s; 
+  }
+  
+  /* Change the border color on hover */
+  .hackathon-card01:hover {
+    border-color: #007bff; /* Change the color as desired */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Increase box shadow on hover */
+
+  }
+  
+  .row01::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  
+
+  
+  /* Styling for the hackathon card title */
+  .hackathon-card01 h2 {
+    font-size: 24px;
+    margin: 10px 0;
+    font-weight: bold;
+    font-family: "Nunito Sans", sans-serif;
+  
+
+  }
+  
+  /* Styling for the hackathon card description */
+  .p1 {
+    font-size: 16px;
+    color: #555;
+    font-family: "Nunito Sans", sans-serif;
+    position: absolute;
+    left: 20px;
+    border-top-width: 40px;
+
+  }
+
+  .p2 {
+    font-size: 16px;
+    color: #555;
+    font-family: "Nunito Sans", sans-serif;
+    position: absolute;
+    left: 20px;
+    bottom: 100px;
+
+  }
+  
+  /* Styling for the main app container */
+  .App01 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f6f6f6;
+    padding: 20px;
+    margin: 0 auto; /* Center-align horizontally */
+    margin-top: 1100px;
+    
+   
+  }
+  
+  /* Styling for the hackathons container */
+  .hackathons-container01 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    
+    
+  }
+  
+
+  /* src/App.css */
+
+/* Styling for the button inside the hackathon card */
+.card-button01 {
+    position: absolute; /* Set the button to absolute positioning */
+    bottom: 10px; /* Position it at the bottom */
+    right: 10px; /* Position it at the right */
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    cursor: pointer;
+    text-transform:none;
+
+  }
+  
+  .card-button01:hover {
+    background-color: #0056b3;
+  }
+  
+.head1{
+    font-weight: bold;
+    font-family: "Nunito Sans", sans-serif;
+    
+}
+
+/* Add styles for the GitHub icon */
+.github-icon {
+    position: absolute;
+    top: 10px; /* Adjust as needed */
+    right: 10px; /* Adjust as needed */
+    font-size: 20px; /* Adjust the icon size as needed */
+    color: #333; /* Adjust the color as needed */
+  }
+  
+  /* Rest of your existing styles for the card */
+  
+
+  /* Add this style for the Hackathon Type label */
+.hackathon-type-label {
+    position: absolute;
+    bottom: 1px; /* Adjust the vertical position as needed */
+    left: 25px; /* Adjust the horizontal position as needed */
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000;
+    background-color:rgb(245, 247, 247);
+    padding: 10px;
+    border-radius: 10px;
+    text-transform: uppercase;
+  }
+  
