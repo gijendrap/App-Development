@@ -1,0 +1,67 @@
+/* Profile.css */
+
+.profile-container {
+    margin-top: 200px;
+    width: 1209px;
+    height: 600px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-avatar img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+    border: 2px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .profile-info h1 {
+    font-size: 28px;
+    color: #333;
+    margin: 0;
+  }
+  
+  .profile-info p {
+    font-size: 16px;
+    color: #777;
+    margin: 5px 0;
+  }
+  
+  .bio {
+    font-style: italic;
+  }
+  
+  .profile-stats {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .stat {
+    text-align: center;
+  }
+  
+  .stat strong {
+    display: block;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .stat span {
+    font-size: 16px;
+    color: #777;
+  }
+  
+  /* Add more CSS styles to match your specific design requirements */
+  
